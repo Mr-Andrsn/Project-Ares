@@ -1,0 +1,19 @@
+Errors Found. Writing report to Extensions/Blackwater/report.txt
+
+Extension Metadata Error:
+System.IO.FileNotFoundException 
+ 
+Starting Mission File does not exist! 
+ 
+Source : Hacknet 
+ 
+System.IO.FileNotFoundException: Starting Mission File does not exist! 
+   at Hacknet.Extensions.ExtensionInfo.VerifyExtensionInfo(ExtensionInfo info) 
+   at Hacknet.Screens.ExtensionsMenuScreen.DrawExtensionInfoDetail(Vector2 drawpos,
+   Rectangle dest, SpriteBatch sb, ScreenManager screenMan, ExtensionInfo info)
+ 
+ 
+ 
+   at Hacknet.Extensions.ExtensionInfo.VerifyExtensionInfo(ExtensionInfo info) 
+   at Hacknet.Screens.ExtensionsMenuScreen.DrawExtensionInfoDetail(Vector2 drawpos,
+   Rectangle dest, SpriteBatch sb, ScreenManager screenMan, ExtensionInfo info)

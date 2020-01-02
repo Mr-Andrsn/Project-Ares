@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TestNode" name="Test Node" ip="112.10.68.12" type="empty">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+  <file path="home" name="example.txt">This is a file!
+You can write whatever you want here. Like "giraffe pimp"!</file>
+
+  <file path="home" name="downloadme.txt">you know you wanna download me. 
+do it. pwease.</file>
+
+
+  
+</Computer>

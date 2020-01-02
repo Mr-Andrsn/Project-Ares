@@ -1,0 +1,15 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+    <!--<RunFunction FunctionName="setFaction:introfac" FunctionValue="0" /> -->
+    
+    <StartScreenBleedEffect AlertTitle="ATTACK IN PROGRESS!" CompleteAction="NONE" TotalDurationSeconds="15" DelayHost="BleedNode" Delay="1">INCOMING CONNECTION
+SOURCE: UNKNOWN
+SYSTEM TAKEOVER IMMINENT!</StartScreenBleedEffect>
+
+    <CancelScreenBleedEffect DelayHost="BleedNode" Delay="12" />
+
+  </Instantly>
+
+</ConditionalActions>

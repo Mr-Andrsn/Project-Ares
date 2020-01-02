@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="blackwaterSecuServe1" name="Blackwater SecuServe 1" ip="112.10.68.20" type="1">
+
+<positionNear target="blackwaterHub" position="2" total="5" extraDistance="0.1" force="false"/>
+
+<dlink target="blackwaterSecuServe2"/>
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 6881</ports>
+  <firewall level="7" solution="acad3m1" additionalTime="1"/>
+  <proxy time="1"/>
+  <trace time="-1" />
+
+  <file path="home" name="example.txt">This is a file!
+You can write whatever you want here. Like "giraffe pimp"!</file>
+
+   <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+</Computer>

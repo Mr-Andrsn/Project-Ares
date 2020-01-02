@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegisDrop" name="Aegis Drop Server" ip="112.10.68.13" type="3">
+
+<positionNear target="aegisHub" position="1" total="1" extraDistance="0.0" force="false"/>
+
+<uploadServerDaemon name="Upload Dropbox" folder="Drop" needsAuth="false" color="174,0,164"/>
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="100" />
+
+  <file path="home" name="testfile.txt">itty bitty test file.</file>
+
+   
+  
+</Computer>

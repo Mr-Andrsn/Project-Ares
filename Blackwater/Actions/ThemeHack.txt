@@ -1,0 +1,12 @@
+config playerComp themeHackComp 1.5 $#%#$
+connect $#%#$
+delay 2 $#%#$
+openPort 21 $#%#$
+openPort 22 $#%#$
+openPort 25 $#%#$
+openPort 80 $#%#$
+delete /sys x-server.sys $#%#$
+forkbomb $#%#$
+delay 5 $#%#$
+reboot $#%#$
+disconnect $#%#$

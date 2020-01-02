@@ -1,0 +1,81 @@
+<HacknetExtension>
+  
+	<Name>Blackwater</Name>
+	<AllowSaves>true</AllowSaves>
+  
+  
+	<StartingVisibleNodes></StartingVisibleNodes>
+  
+
+  <StartingMission>Missions\StartingMission.xml</StartingMission>
+
+  
+  <StartingActions>Actions\StartingActions.xml</StartingActions>
+
+  
+  <Description> --- Blackwater ---
+A work in progress</Description>
+  
+  
+  <Faction>Factions/Aegis.xml</Faction>
+  <Faction>Factions/Blackwater.xml</Faction>
+  <Faction>Factions/Helios.xml</Faction>
+  
+  <StartsWithTutorial>False</StartsWithTutorial>
+  
+
+  <HasIntroStartup>false</HasIntroStartup>
+  
+  <StartingTheme>Themes/ExampleTheme.xml</StartingTheme>
+  
+  <IntroStartupSong>The_Quickening</IntroStartupSong>
+
+  <!-- Sequencer stuff. You won't need this till later.-->
+  <!--
+  <SequencerTargetID>advExamplePC</SequencerTargetID>
+  <SequencerSpinUpTime>10.5</SequencerSpinUpTime>
+  <SequencerFlagRequiredForStart>testFlag</SequencerFlagRequiredForStart>
+  <ActionsToRunOnSequencerStart>Actions/ThemeSwapActions.xml</ActionsToRunOnSequencerStart>
+  -->
+  
+  <!-- Steam workshop fields -->
+  <!-- 
+  public string WorkshopDescription;
+        public string WorkshopLanguage;
+        public byte WorhsopVisibility = 2;
+        public string WorkshopTags;
+        public string WorkshopPreviewImagePath;
+  -->
+  <WorkshopDescription>This is the description of the extension that will appear in Steam Workshop and any other mod platforms this gets ported to. Max 8000 characters.
+You can use newlines in this as normal etc.</WorkshopDescription>
+
+  <!-- Language that this is set to. -->
+  <WorkshopLanguage>English</WorkshopLanguage>
+
+  <!-- Sets the visibility of this item on the workshop.
+  0 = public
+  1 = friends only
+  2 = private (self only)-->
+  <WorkshopVisibility>2</WorkshopVisibility>
+
+  <!-- Comma separated list of tags that this should be listed under in the workshop. This is not currently used, as the only category
+  of workshop item in Hacknet is "Extension", so leave this as-is for now.-->
+  <WorkshopTags>Extension</WorkshopTags>
+
+  <!-- Path to the preview image used on the steam workshop for your extension.
+  This must be within your mod folder, be 16x9 aspect ratio and less than 1MB in size. 
+  I recommend the highest resolution you can provide that fits that criteria, 
+  though steam will likely use a version less than 512x512 in size, and will auto resize it for you.
+  
+  This can be different to the provided Logo.png if you want, as this will not be transparently backed on steam.
+  Supported formats are .png, .jpg and .gif
+  -->
+  <WorkshopPreviewImagePath>Logo.png</WorkshopPreviewImagePath>
+
+  <!-- This is the workshop publish ID. The first time your extension is published to Steam, this will be automatically populated with the ID that steam assigns it.
+  When this happens, make sure that you keep that version of the file and store the ID somewhere - without it, you wont be able to push out updates to your extension,
+  and if it's removed, publishing to the workshop will submit it as a new entry, and you'll lose all of your subscribers. Be careful!
+  Do not manually modify this unless you already know your Publish ID from a previous submission. A new ID will only be generated if this says "NONE"-->
+  <WorkshopPublishID>NONE</WorkshopPublishID>
+  
+</HacknetExtension>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegisHub" 
+name="Aegis Hub" 
+ip="112.10.68.16" 
+type="4" 
+allowsDefaultBootModule="true">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+  <missionHubServer groupName="Aegis" 
+  serviceName="Aegis Hub" 
+  missionFolderPath="Missions/Contracts" 
+  themeColor="174,0,164" 
+  lineColor="255,80,80" 
+  backgroundColor="20,20,20" allowAbandon="false"/>
+
+  <file path="home" name="example.txt">This is a file!
+You can write whatever you want here. Words are funny, you know... you can say or write whatever you want and people will think of whatever you say.
+Like "giraffe pimp"! Just for an example.
+Have fun with your new superpower!</file>
+
+   
+  
+</Computer>

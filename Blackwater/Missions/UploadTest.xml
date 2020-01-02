@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="UploadTest">
+  <goals>
+    <goal type="fileupload" target="TestNode" file="downloadme.txt" path="home" destTarget="heliosDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Leroy Jenkins</sender>
+    <subject>Give File</subject>
+    <body>Ok now that you have that file... gimmie. Upload it here:
+</body>
+    <attachments>
+      <link comp="heliosDrop" />
+    </attachments>
+  </email>
+</mission>

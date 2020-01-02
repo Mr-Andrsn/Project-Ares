@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="heliosDrop" name="Helios Drop Server" ip="112.10.68.18" type="3">
+
+<positionNear target="heliosHub" position="1" total="1" extraDistance="0.0" force="false"/>
+
+<uploadServerDaemon name="Upload Dropbox" folder="Drop" needsAuth="false" color="210,128,0"/>
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="-1" />
+
+  <file path="home" name="example.txt">This is a file!
+You can write whatever you want here. Like "giraffe pimp"!</file>
+
+   <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+</Computer>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DownloadTest">
+  <goals>
+    <goal type="filedownload" target="TestNode" file="downloadme.txt" path="home"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/UploadTest.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Leroy Jenkins</sender>
+    <subject>Need a file</subject>
+    <body>I need a file from the following server. You'll know the file when you see it.
+
+    Oh, and you'll need a tool to crack in there so grab it from my stash.
+</body>
+    <attachments>
+      <link comp="TestNode" />
+      <link comp="leroyAsset"/>
+    </attachments>
+  </email>
+</mission>
